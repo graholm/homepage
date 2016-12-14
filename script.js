@@ -21,7 +21,11 @@ var formattedExample = $("<pre>")
 formattedExample.text(functionString)
 functionExample.html(formattedExample)
 
-
+$("#function-input").keydown(function(e) {	
+  if (e.keyCode == "13") {
+    $("#function-input").css("background-color", "yellow");
+  }
+})
 //firebaseexample
 
 //var input = $("#firebase-input")

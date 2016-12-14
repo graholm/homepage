@@ -23,7 +23,7 @@ functionExample.html(formattedExample)
 
 $("#function-input").keydown(function(e) {	
   if (e.keyCode == "13") {
-    $("#function-input").css("background-color", "yellow");
+    $("#function-input").css("background-color", "green");
   }
 })
 //firebaseexample

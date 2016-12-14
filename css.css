@@ -7,9 +7,13 @@
   text-align: center;
   border: 2px solid black;
 }
-a#ahh {
-  font-size: 8px;
+#ahh.btn.btn-default {
+  font-size: 10px;
   color: blueviolet;
+}
+
+.row.small-font {
+  font-size: 8px;
 }
 
 
